@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width:200px;
+            height:200px;
+            background-color: #999;
+        }
+        div:hover{
+            transform: rotate(90deg);
+
+            transform: 3s;
+        }
+        h1{
+            width: 500px;
+            height: 100px;
+            background-color: red;
+            animation-name: controlText;
+            animation-duration: 4s;
+        }
+
+        @keyframes controlText{
+            form{
+                transform: translate(0px , 0px);
+                scale: .5;
+
+            }
+            to{
+                transform: translate(100px, 500px);
+                scale: 1.4;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+
+    </div>
+
+    <h1>
+        Welcome to coding duniya
+    </h1>
+</body>
+</html>

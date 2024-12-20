@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Number Validation</title>
+</head>
+<body>
+    <div class="container">
+        <h1> Number Validation</h1>
+        <form id="mobile-form">
+            <label for="mobile">Mobile Number:</label>
+            <input type="text" id="mobile" name="mobile">
+            <button type="button" onclick="validateMobileNumber()">Submmit</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    <script>
+        function validateMobileNumber() {
+    var mobile = document.getElementById("mobile").value;
+    var result = document.getElementById("result");
+
+
+    var mobilePattern = /^[0-9]{10}$/;
+
+    if (mobilePattern.test(mobile)) {
+        result.textContent = "Valid Mobile Number";
+    } else {
+        result.textContent = "Invalid Mobile Number";
+    }
+}
+
+    </script>
+</body>
+</html>

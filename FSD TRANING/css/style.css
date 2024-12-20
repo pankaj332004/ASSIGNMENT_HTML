@@ -1,0 +1,30 @@
+body{
+    background-color:aqua;
+}
+h1{
+    color:rgb(14, 14, 13);
+    text-decoration: line-through;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 5px 1px 2px #f04;
+    text-indent: 200px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    /* text-wrap:nowrap */
+    font-weight: 900;
+    font-style: italic;
+    font-variant: small-caps;
+}
+body{
+    background-image:url(./download.jpeg);
+}
+div{
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0px;
+    background-image: radial-gradient(blue 10%,green 60%,red 90%)
+}
